@@ -5,7 +5,8 @@
     padding:0;
     box-sizing: border-box;
     color: #33475B;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 h1,
@@ -21,7 +22,7 @@ h4 {
 }
 
 body {
-    padding-bottom: 87px;
+    padding-bottom: 109px;
 }
 
 /* UTILITIES */
@@ -44,10 +45,30 @@ body {
     display: inline-block;
 }
 
+
+.inline-list {
+    display: inline-block;
+    list-style: none;
+    margin: 6px;
+    padding: 4px;
+}
+
+
 .inline-list li {
     display: inline-block;
     list-style: none;
+    margin: 9px;
     padding: 8px;
+}
+
+.inline-list .li:last-child {
+    margin-right: 0;
+}
+
+.logo img {
+    position: relative;
+    top: 20px;
+    vertical-align: middle;
 }
 
 /* HEADER */
@@ -57,11 +78,19 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    line-height: 80px;
     z-index: 10;
 }
 
+
 .upper-header  {
+    padding-top: 20px;
     background-color: #F0F8FF;
+}
+
+#blueicon {
+    margin-right: 5px;
+    color: dodgerblue;
 }
 
 .link {
@@ -74,6 +103,9 @@ body {
     color: #33475B;
 }
 
+.arrow.fas {
+    font-size: 14px;
+}
 
 
 /* BUTTONS */
@@ -82,13 +114,15 @@ body {
 .button {
     display: inline-block;
     min-width: 100px;
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    font-size: 12px;
     color: #FF6347;
     border: 1px solid  #FF6347;
     border-radius: 5px;
+    vertical-align: middle;
 }
  
 .salmon.button {
@@ -97,14 +131,31 @@ body {
     border: 1px solid transparent;
 }
 
-.button.green:hover {
+.button.salmon:hover {
    -webkit-transform: scale(1.2);
    -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
 
+
 /* JUMBOTRON */
  
 .jumbotron {
+    position: relative;
+    background-color: #FFF3EE;
     background-image: url("../img-hubspot/jumbotron.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 480px;
+}
+
+.bottom-jumbotron {
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    bottom: 0;
+    background-color: #AFEEEE;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
 }

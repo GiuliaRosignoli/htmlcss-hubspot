@@ -25,23 +25,25 @@
     <title>Hubspot</title>
 </head>
 <body>
-    <header>
+    <header class="container">
 <!--LEFT NAVBAR AND RIGHT NAVBAR, UP AND DOWN-->
-
         <div class="upper-header container">
             <nav class="container clearfix inline"> 
                 <div class="upper left floated-left"> 
                         <span>
-                            <i class="fas fa-globe-europe"></i>
+                            <i class="inline-list fas fa-globe-europe"></i>
                         </span>
-                        <span>English</span>
+                        <span class="inline-list">English</span>
+                        <span><i class="fas fa-angle-down"></i></span>
+                        <span>|</span>
                         <span>
-                             <a class="link" href="#">Contact Us</a>
+                             <a class="link inline-list" href="#">Contact Us</a>
                         </span>
                 </div>
                 <div class="upper right floated-right inline">
-                        <div class="button">Log in</div>
-                        <div class="salmon button">GetHubspotFree</div>
+                        <span><i id="blueicon" class="fas fa-search"></i></span>
+                        <span class="button inline-list">Log in</span>
+                        <span class="salmon button">GetHubspotFree</span>
                 </div>                  
             </nav>
         </div>
@@ -49,18 +51,19 @@
         <div class="lower-header container">
             <nav class="container clearfix inline">
                 <div class="lower left floated-left">
-                      <img src="./img-hubspot/logo.svg" alt="Hubspot Logo">
+                    <div class="logo"><img src="./img-hubspot/logo.svg" alt="Hubspot Logo"></div>          
                 </div>
                 <div class="lower right floated-right">
                       <ul class="inline-list">
-                           <li>Software</li>
+                           <li>Software <span><i class="arrow fas fa-angle-down"></i></span></li>
                            <li>Pricing</li>
-                           <li>Resources</li>
-                           <li>Partners</li>
-                           <li>About</li>
+                           <li>Resources<span><i class="arrow fas fa-angle-down"></i></span></li>
+                           <li>Partners<span><i class="arrow fas fa-angle-down"></i></span></li>
+                           <li>About<span><i class="arrow fas fa-angle-down"></i></span></li>
                       </ul>
                 </div>
             </nav>
+      
         </div>
     </header>
 
@@ -74,7 +77,7 @@
                           <div class="jumbotron content">
                             
 
-
+                               <div class="bottom-jumbotron"></div>
                           </div>
                    
 
