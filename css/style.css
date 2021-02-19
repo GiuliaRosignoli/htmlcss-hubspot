@@ -23,7 +23,7 @@ h4 {
 }
 
 body {
-    padding-bottom: 109px;
+    padding-top: 117px;
 }
 
 /* UTILITIES */
@@ -51,15 +51,15 @@ body {
     display: inline-block;
     list-style: none;
     margin: 6px;
-    padding: 4px;
+    padding: 4px; 
 }
 
 
 .inline-list li {
     display: inline-block;
     list-style: none;
-    margin: 9px;
-    padding: 8px;
+    margin: 7px;
+    padding: 8px; 
 }
 
 .inline-list .li:last-child {
@@ -85,8 +85,8 @@ body {
 
 /*.header-contained {
     width: 45%;
-    text-align: center; */
-}
+    text-align: center; 
+} */
 
 .upper-header  {
     padding-top: 20px;
@@ -108,7 +108,8 @@ body {
     color: #33475B;
 }
 
-.arrow.fas {
+.inline-list .arrow.fas i {
+    padding-right: 5px;
     font-size: 14px;
 }
 
