@@ -13,14 +13,10 @@ h1,
 h2,
 h3,
 h4 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
 }
 
-
-h1, h2 {
-    line-height: 80px;
-}
 
 .container {
     width: 1200px;
@@ -34,7 +30,7 @@ body {
 
 /* UTILITIES */
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -91,15 +87,14 @@ header {
     z-index: 1;
 }
 
-/*.header-contained {
-    width: 45%;
-    text-align: center; 
-} */
 
 .upper-header  {
     padding-top: 20px;
-    line-height: 80px;
     background-color: #F0F8FF;
+}
+
+.lower-header {
+    background-color: white;
 }
 
 #blueicon {
@@ -112,14 +107,13 @@ header {
 }
 
 .row {
-    width: 1200px;
     margin: auto;
     color: #33475B;
 }
 
-.inline-list .arrow.fas i {
-    padding-right: 5px;
-    font-size: 14px;
+.inline-list .arrow {
+    padding-left: 6px;
+    font-size: 13px;
 }
 
 
@@ -177,11 +171,11 @@ header {
 
 
 .jumbotron-text {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translateY(-50%);
-    line-height: 30px;
+    width: 40%;
+}
+
+.settings-title {
+    padding-top: 40px;
 }
 
 .special {
@@ -192,13 +186,38 @@ header {
 
 .contained {
     width: 60%;
-    margin-top: 40PX;
+    margin-top: 40px;
     text-align: center;
     line-height: 30px;
 }
 
+.jumbotron-text .settings-title {
+    padding-bottom: 20px;
+}
+
+.jumbotron-text .settings-paragraph {
+    line-height: 27px;
+}
+
+.special-settings-title {
+    margin-bottom: 20px;
+}
+
 .cube-image {
-    width: 35%;
+    width: 40%;
     padding-top: 20px;
 }
 
+ /* CONTAINER WITH 2 FLOATED CLASSES */
+
+ .second-container.clearfix {
+     width: 900px;
+     margin: auto;
+     padding-top: 30px;
+     background-color: purple;
+ }
+
+.second-container.clearfix .first.floated-left {
+    width: 30%;
+    background-color: royalblue;
+}
