@@ -6,13 +6,14 @@
     box-sizing: border-box;
     color: #33475B;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h1,
 h2,
 h3,
 h4 {
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -82,6 +83,10 @@ body {
     z-index: 10;
 }
 
+/*.header-contained {
+    width: 45%;
+    text-align: center; */
+}
 
 .upper-header  {
     padding-top: 20px;
@@ -158,4 +163,26 @@ body {
     background-color: #AFEEEE;
     border-top: 3px solid #33475B;
     border-bottom: 3px solid #33475B;
+}
+
+
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
+    line-height: 30px;
+}
+
+
+
+.contained {
+    width: 60%;
+    margin-top: 40PX;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cube-image {
+    width: 35%;
 }
