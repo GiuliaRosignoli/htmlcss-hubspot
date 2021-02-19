@@ -31,6 +31,7 @@ body {
     padding-top: 137px;
 }
 
+
 /* UTILITIES */
 
 .clearfix {
@@ -86,8 +87,7 @@ header {
     position: fixed; 
     top: 0;
     left: 0;
-    width: 100%;
-    line-height: 80px;
+    width: 100%;  
     z-index: 1;
 }
 
@@ -98,6 +98,7 @@ header {
 
 .upper-header  {
     padding-top: 20px;
+    line-height: 80px;
     background-color: #F0F8FF;
 }
 
