@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 body {
-    padding-top: 117px;
+    padding-top: 137px;
 }
 
 /* UTILITIES */
@@ -82,7 +82,7 @@ body {
 
 /* HEADER */
 
-.header {
+header {
     position: fixed; 
     top: 0;
     left: 0;
