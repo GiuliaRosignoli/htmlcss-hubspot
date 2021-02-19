@@ -211,13 +211,17 @@ header {
  /* CONTAINER WITH 2 FLOATED CLASSES */
 
  .second-container.clearfix {
-     width: 900px;
+     width: 1000px;
      margin: auto;
      padding-top: 30px;
-     background-color: purple;
  }
 
-.second-container.clearfix .first.floated-left {
+.second-container .first.floated-left {
     width: 30%;
     background-color: royalblue;
+}
+
+.second-container .second.floated-left {
+    width: 70%;
+    background-color: slateblue;
 }
