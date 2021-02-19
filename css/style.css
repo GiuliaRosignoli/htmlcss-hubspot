@@ -1,5 +1,110 @@
+/* GENERAL */
+
 * {
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    color: #33475B;
+    font-family: 'Montserrat', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    padding-bottom: 87px;
+}
+
+/* UTILITIES */
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.floated-left {
+    float: left;
+}
+
+.floated-right {
+    float: right;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline-list li {
+    display: inline-block;
+    list-style: none;
+    padding: 8px;
+}
+
+/* HEADER */
+
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.upper-header  {
+    background-color: #F0F8FF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.row {
+    width: 1200px;
+    margin: auto;
+    color: #33475B;
+}
+
+
+
+/* BUTTONS */
+
+
+.button {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF6347;
+    border: 1px solid  #FF6347;
+    border-radius: 5px;
+}
+ 
+.salmon.button {
+    background-color: #FF6347;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.button.green:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* JUMBOTRON */
+ 
+.jumbotron {
+    background-image: url("../img-hubspot/jumbotron.png");
 }
