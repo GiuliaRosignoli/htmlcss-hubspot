@@ -12,8 +12,8 @@
 h1,
 h2,
 h3,
-h4 {
-    font-size: 32px;
+h4,
+h5 {
     font-weight: 700;
 }
 
@@ -123,9 +123,8 @@ header {
 .button {
     display: inline-block;
     min-width: 100px;
-    padding: 6px;
+    padding: 9px;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
     font-size: 12px;
     color: #FF6347;
@@ -176,6 +175,8 @@ header {
 
 .settings-title {
     padding-top: 40px;
+    margin-bottom: 12px;
+    font-size: 43px;
 }
 
 .special {
@@ -200,7 +201,8 @@ header {
 }
 
 .special-settings-title {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    font-size: 30px;
 }
 
 .cube-image {
@@ -210,18 +212,67 @@ header {
 
  /* CONTAINER WITH 2 FLOATED CLASSES */
 
- .second-container.clearfix {
-     width: 1000px;
-     margin: auto;
-     padding-top: 30px;
+ .section.container {
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 6px solid #F0F8FF;;
+    /*text-align: center; */
  }
 
-.second-container .first.floated-left {
-    width: 30%;
-    background-color: royalblue;
+
+.first-column-content.floated-left.inline{
+    width: 10%;
 }
 
-.second-container .second.floated-left {
-    width: 70%;
-    background-color: slateblue;
+.second-column-content.floated-left.inline {
+    width: 90%;
+    line-height: 30px;
+}
+
+.second-column-content.floated-left.inline .not-centred {
+    width: 80%;
+    padding-top: 20px; 
+    padding-left: 200px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.openbook {
+    width: 220px;
+    height: 220px;
+    margin-left: 40px;
+    padding-left: 80px;
+    background-color: white;
+    text-align: left;
+}
+
+#special-button1 {
+    margin-top: -20px; 
+    margin-left: 120px;
+    padding: 12px; 
+
+}
+
+.free-hubspot-title {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-size: 24px;
+}
+
+.feature-title {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.feature-title:after {
+    content: "______________________________________________";
+    padding-left: 50px;
+}
+
+.booksec.inline-list {
+    margin-top: 15px;
+}
+
+.fa-check-circle {  
+    color: #FF6347;
 }
