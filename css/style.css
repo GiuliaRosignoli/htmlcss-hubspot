@@ -3,11 +3,18 @@
 * {
     margin: 0;
     padding:0;
-    box-sizing: border-box;
-    color: #33475B;
+    box-sizing: border-box;   
+}
+
+
+body {
+    padding-top: 137px;
+    background-color: #F0F8FF; 
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    color:#33475B;
 }
+
 
 h1,
 h2,
@@ -21,11 +28,6 @@ h5 {
 .container {
     width: 1200px;
     margin: 0 auto;
-}
-
-body {
-    padding-top: 137px;
-    background-color: #F0F8FF; 
 }
 
 
@@ -151,9 +153,8 @@ header {
  
 .jumbotron {
     position: relative;
-    background-color: #FFF3EE;
     background-image: url("../img-hubspot/jumbotron.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     height: 480px;
@@ -166,7 +167,7 @@ header {
     bottom: 0;
     background-color: #AFEEEE;
     border-top: 3px solid #33475B;
-    border-bottom: 3px solid #33475B;
+    border-bottom: 3px solid #33475B; 
 }
 
 
@@ -211,12 +212,16 @@ header {
     padding-top: 20px;
 }
 
+
+
  /* CONTAINER WITH 2 FLOATED CLASSES */
 
  .section.container {
     margin-top: 50px;
     padding-top: 10px;
+    padding-bottom: 30px;
     background-color: white; 
+    border: 1px solid #D3D3D3;
  }
 
 
@@ -285,24 +290,23 @@ header {
     height: 500px;
     margin-top: 40px;
     background-color:  #F0F8FF;
-    border: 6px solid blue;
 }
 
 .col {
-    width: calc(100% / 3 - 60px);
-    margin: 30px;
+    width: calc(100% / 3 - 36px);
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    text-align: center;
+    line-height: 22px;
+    border: 1px solid #D3D3D3;
 }
 
-.container.clearfix.inline .first.col {
-    background-color: #FF6347;
-}
 
-
-.container.clearfix.inline .second.col {
-   background-color: aqua;
-}
-
-
-.container.clearfix.inline .third.col {
-    background-color: blueviolet;
+.small-pic {
+    width: 100px;
+    height: 100px;
+    background-color: white;
 }
