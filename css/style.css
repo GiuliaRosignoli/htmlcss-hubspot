@@ -259,7 +259,7 @@ header {
 }
 
 .free-hubspot-title {
-    padding-top: 30px;
+    padding-top: 35px;
     padding-bottom: 35px;
     font-size: 24px;
 }
@@ -296,8 +296,7 @@ header {
     width: calc(100% / 3 - 36px);
     margin-left: 18px;
     margin-right: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px;
     background-color: white;
     text-align: center;
     line-height: 22px;
@@ -305,8 +304,33 @@ header {
 }
 
 
-.small-pic {
+.col-content .small-pic {
     width: 100px;
     height: 100px;
     background-color: white;
+}
+
+.col-content .small-pic-title {
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+.pad-btm {
+    padding-bottom: 80px;
+    border-bottom: 1px solid  #33475B;
+}
+
+
+.popular-feature-title {
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+
+.special.inline-list {
+    display: block;
+    padding: 2px;
+    margin-top: 10px;
+    line-height: 2px;
+    text-align: left;
 }
