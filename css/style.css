@@ -25,6 +25,7 @@ h5 {
 
 body {
     padding-top: 137px;
+    background-color: #F0F8FF; 
 }
 
 
@@ -215,8 +216,7 @@ header {
  .section.container {
     margin-top: 50px;
     padding-top: 10px;
-    border: 6px solid #F0F8FF;;
-    /*text-align: center; */
+    background-color: white; 
  }
 
 
@@ -275,4 +275,34 @@ header {
 
 .fa-check-circle {  
     color: #FF6347;
+}
+
+
+/* CONTAINER CONTAINING 3 FLOATED COLUMNS */
+
+
+.other-section.container {
+    height: 500px;
+    margin-top: 40px;
+    background-color:  #F0F8FF;
+    border: 6px solid blue;
+}
+
+.col {
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
+}
+
+.container.clearfix.inline .first.col {
+    background-color: #FF6347;
+}
+
+
+.container.clearfix.inline .second.col {
+   background-color: aqua;
+}
+
+
+.container.clearfix.inline .third.col {
+    background-color: blueviolet;
 }
