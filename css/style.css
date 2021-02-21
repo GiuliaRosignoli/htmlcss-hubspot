@@ -350,24 +350,40 @@ header {
 .linear-gradient {
     height: 800px;
     margin-top: 40px;
-    background-image: linear-gradient(#00BFFF, #00d4ff);
+    background-image: linear-gradient(#08a4bc, #07bca8);
 }
 
-.clm.clearfix.inline {
-    width:calc(100% / 4 - 20px);
-    margin: 10px;
-    background-color: sandybrown;
+.linear-gradient .container .linear-gradient-title {
+    padding-top: 45px;
+    padding-bottom: 25px;
     text-align: center;
+    font-size: 30px;
+    color: white;
 }
 
-.first.clm {
-    background-color: red;
+.linear-gradient .container .linear-gradient-pg {
+   padding-top: 10px;
+   padding-bottom: 40px;
+   text-align: center;
+   line-height: 25px;
+   font-size: 13px;
+   color: white;
 }
 
-.second.clm {
-    background-color: rosybrown;
+
+.clm {
+    width:calc(100% / 4 - 40px);
+    margin: 20px;
+    text-align: center;
+    line-height: 24px; 
+    color: white;
+    
 }
 
-.first-col-content.floated-left.inline {
-    width: 10%;
-}
+ .columns {
+    border-left-color: white;
+    border-right-color: white;
+} 
+
+
+
