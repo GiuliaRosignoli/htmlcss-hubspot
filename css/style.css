@@ -69,9 +69,11 @@ h5 {
     padding: 8px; 
 }
 
+
 .inline-list .li:last-child {
     margin-right: 0;
 }
+
 
 .logo img {
     position: relative;
@@ -96,14 +98,17 @@ header {
     background-color: #F0F8FF;
 }
 
+
 .lower-header {
     background-color: white;
 }
+
 
 #blueicon {
     margin-right: 5px;
     color: dodgerblue;
 }
+
 
 .link {
     text-decoration: none;
@@ -154,17 +159,18 @@ header {
 .jumbotron {
     position: relative;
     background-image: url("../img-hubspot/jumbotron.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     height: 480px;
 }
 
 .bottom-jumbotron {
     position: absolute;
     width: 100%;
-    height: 57px;
     bottom: 0;
+    left: 0;
+    height: 57px;
     background-color: #AFEEEE;
     border-top: 3px solid #33475B;
     border-bottom: 3px solid #33475B; 
@@ -225,7 +231,7 @@ header {
  }
 
 
-.first-column-content.floated-left.inline{
+.first-column-content.floated-left.inline {
     width: 10%;
 }
 
@@ -287,7 +293,6 @@ header {
 
 
 .other-section.container {
-    height: 500px;
     margin-top: 40px;
     background-color:  #F0F8FF;
 }
@@ -299,7 +304,7 @@ header {
     padding: 30px;
     background-color: white;
     text-align: center;
-    line-height: 22px;
+    line-height: 24px; 
     border: 1px solid #D3D3D3;
 }
 
@@ -329,8 +334,40 @@ header {
 
 .special.inline-list {
     display: block;
-    padding: 2px;
-    margin-top: 10px;
-    line-height: 2px;
+    margin: 10px 0;
     text-align: left;
+    /*line-height: 50%; */
+}
+
+.list-item {
+ /*   line-height: 50%; */
+}
+
+
+
+/* CONTAINER WITH LINEAR GRADIENT */
+
+.linear-gradient {
+    height: 800px;
+    margin-top: 40px;
+    background-image: linear-gradient(#00BFFF, #00d4ff);
+}
+
+.clm.clearfix.inline {
+    width:calc(100% / 4 - 20px);
+    margin: 10px;
+    background-color: sandybrown;
+    text-align: center;
+}
+
+.first.clm {
+    background-color: red;
+}
+
+.second.clm {
+    background-color: rosybrown;
+}
+
+.first-col-content.floated-left.inline {
+    width: 10%;
 }
