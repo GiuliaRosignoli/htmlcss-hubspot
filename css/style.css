@@ -408,7 +408,7 @@ header {
 }
 
 
-/* OHTER SECTION WITH 2 FLOATED COLUMNS*/
+/* OTHER SECTION WITH 2 FLOATED COLUMNS*/
 
 .special-smaller-container {
     width: 1000px;
@@ -422,7 +422,7 @@ header {
 
 .pillar {
 /*margin: 20px; */
-    background-color:white;
+  background-color:white;
 } 
 
 .first.pillar {
