@@ -414,12 +414,12 @@ header {
 .pillar-content {
     margin-top: 40px;
     text-align: center;
-    line-height: 28px;
+    line-height: 26px;
 }
 
 .pillar-lower-content {
    text-align: left;
-   line-height: 28px;
+   line-height: 26px;
 }
 
 .pillar-cont-title {
@@ -428,11 +428,20 @@ header {
     padding-bottom: 25px;
 }
 
+.pillar-lower-content .button {
+   margin-top: 40px;
+   padding: 10px 32px 10px 32px;
+}
+
+.pillar-lower-content div:last-child {
+    margin-top: 40px;
+    font-size: 11px;
+}
+
 .first .pillar-content {
     width: 65%;
     text-align: left;
 }
-
 
 .logo-list li {
     display: inline-block;
@@ -456,8 +465,8 @@ header {
 }
 
 .woman-pic {
-    max-width: 380px;
-    height: 380px;
+    max-width: 350px;
+    height: 350px;
     padding-top: 30px;
 }
 
