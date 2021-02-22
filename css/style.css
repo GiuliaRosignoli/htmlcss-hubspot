@@ -410,12 +410,25 @@ header {
 
 .pillar-cont {
     margin-top: 40px;
-    background-color: aqua;
 }
 
 .pillar {
-    width:calc(100% / 2 - 40px);
+    width:calc(100% / 2 - 40px); 
     margin: 20px;
-    background-color: red;
+    background-color:white;
 } 
 
+.small-logos {
+    max-width: 80px;
+    height: 80px;
+}
+
+.white-numbers.two {
+    color:  #33475B;
+}
+
+.pillar-text {
+    margin-top: 10px;
+    padding: 30px;
+
+}
