@@ -162,7 +162,6 @@ header {
     border-bottom: 3px solid #33475B; 
 }
 
-
 .jumbotron-text {
     width: 40%;
 }
@@ -305,7 +304,7 @@ header {
 
 .pad-btm {
     padding-bottom: 80px;
-    border-bottom: 1px solid  #33475B;
+    border-bottom: 1px solid #33475B;
 }
 
 .popular-feature-title {
@@ -390,6 +389,7 @@ header {
 /* OTHER SECTION WITH 2 FLOATED COLUMNS*/
 
 .pillar-cont {
+    padding-bottom: 40px;
     background-color: white;
 }
 
@@ -401,11 +401,11 @@ header {
 
 .pillar {
     background-color:white;
-  } 
+} 
   
 .first.pillar {
       width: 40%;
-  }
+}
 
 .second.pillar {
     width: 60%;
@@ -456,7 +456,7 @@ header {
 
 .white-numbers.two {
     text-align: left;
-    color:  #33475B;
+    color: #33475B;
 }
 
 .pillar-text {
@@ -470,3 +470,45 @@ header {
     padding-top: 30px;
 }
 
+
+/* FOOTER */
+
+.footer {
+    background-color: #33475B;
+}
+
+.four-clmns .clmn {
+    width:calc(100% / 4);
+    padding-top: 40px;
+}
+
+.footer-first-clmn.content {
+    color: white;
+    text-align: left;
+}
+
+.footer-first-clmn.content ul li h5 {
+    font-size: 17px;
+}
+
+.footer-first-clmn.content ul li:first-child {
+    margin-bottom: 30px;
+}
+
+.links-list {
+    list-style: none;
+    margin: 6px;
+    padding: 4px; 
+}
+
+.links-list li {
+    list-style: none;
+    margin: 7px;
+    padding: 8px; 
+}
+
+.links-list li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}  
