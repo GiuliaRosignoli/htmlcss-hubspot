@@ -410,9 +410,14 @@ header {
 
 /* OTHER SECTION WITH 2 FLOATED COLUMNS*/
 
+.pillar-cont {
+    background-color: white;
+}
+
 .special-smaller-container {
     width: 1000px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .pillar-content {
@@ -441,6 +446,7 @@ header {
 .small-logos {
     max-width: 100%;
     max-height: 50px;
+    vertical-align: middle;
 }
 
 .white-numbers.two {
@@ -453,8 +459,7 @@ header {
 }
 
 .woman-pic {
-    width: 350px;
-    height: 350px;
+    max-width: 380px;
+    height: 380px;
     padding-top: 30px;
-    
 }
