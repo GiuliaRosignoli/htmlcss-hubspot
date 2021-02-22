@@ -6,7 +6,6 @@
     box-sizing: border-box;   
 }
 
-
 body {
     padding-top: 137px;
     background-color: #F0F8FF; 
@@ -15,7 +14,6 @@ body {
     color:#33475B;
 }
 
-
 h1,
 h2,
 h3,
@@ -23,7 +21,6 @@ h4,
 h5 {
     font-weight: 700;
 }
-
 
 .container {
     width: 1200px;
@@ -43,16 +40,13 @@ h5 {
     float: left;
 }
 
-
 .floated-right {
     float: right;
 }
 
-
 .inline {
     display: inline-block;
 }
-
 
 .inline-list {
     display: inline-block;
@@ -61,7 +55,6 @@ h5 {
     padding: 4px; 
 }
 
-
 .inline-list li {
     display: inline-block;
     list-style: none;
@@ -69,11 +62,9 @@ h5 {
     padding: 8px; 
 }
 
-
 .inline-list .li:last-child {
     margin-right: 0;
 }
-
 
 .logo img {
     position: relative;
@@ -92,23 +83,19 @@ header {
     z-index: 1;
 }
 
-
 .upper-header  {
     padding-top: 20px;
     background-color: #F0F8FF; 
 }
 
-
 .lower-header {
     background-color: white;
 }
-
 
 #blueicon {
     margin-right: 5px;
     color: dodgerblue;
 }
-
 
 .link {
     text-decoration: none;
@@ -218,7 +205,6 @@ header {
 }
 
 
-
  /* CONTAINER WITH 2 FLOATED CLASSES */
 
  .section.container {
@@ -228,7 +214,6 @@ header {
     background-color: white; 
     border: 1px solid #D3D3D3;
  }
-
 
 .first-column-content.floated-left.inline {
     width: 10%;
@@ -307,7 +292,6 @@ header {
     border: 1px solid #D3D3D3;
 }
 
-
 .col-content .small-pic {
     width: 100px;
     height: 100px;
@@ -324,18 +308,15 @@ header {
     border-bottom: 1px solid  #33475B;
 }
 
-
 .popular-feature-title {
     margin-top: 35px;
     font-size: 16px;
 }
 
-
 .special.inline-list {
     display: block;
     margin: 10px 0;
     text-align: left;
-    
 }
 
 .special.inline-list .list-item {
@@ -345,15 +326,13 @@ header {
 }
 
 
-
-/* CONTAINER WITH LINEAR GRADIENT */
+/* CONTAINER WITH LINEAR GRADIENT AS A BACKGROUND IMAGE AND 4 COLUMNS */
 
 .linear-gradient {
     margin-top: 40px;
     padding: 10px;
     background-image: linear-gradient(#08a4bc, #07bca8);
 }
-
 
 .linear-gradient .container .linear-gradient-title {
     padding-top: 45px;
@@ -372,7 +351,6 @@ header {
    color: white;
 }
 
-
 .clm {
     width:calc(100% / 4);
     padding-top: 30px;
@@ -383,30 +361,31 @@ header {
     color: white;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
-    
 }
 
 .clm:last-child {
     border-right: 1px solid transparent;
 }
 
+.second-row .clm {
+    margin-bottom: 70px;
+}
 
 .second-row .clm.noborder {
    border-bottom: 1px solid transparent;
 }
 
-
- .white-numbers {
-     padding: 20px;
-     text-align: center;
-     font-weight: bolder;
-     font-size: 35px;
+.white-numbers {
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
  }
 
 .small-detail {
     font-size: 11px;
 }
-
+     
 
 /* OTHER SECTION WITH 2 FLOATED COLUMNS*/
 
@@ -420,23 +399,40 @@ header {
     background-color: white;
 }
 
-.pillar-content {
-    margin-top: 40px;
-    text-align: center;
-}
-
 .pillar {
-/*margin: 20px; */
-  background-color:white;
-} 
-
+    background-color:white;
+  } 
+  
 .first.pillar {
-    width: 40%;
-}
+      width: 40%;
+  }
 
 .second.pillar {
     width: 60%;
 } 
+
+.pillar-content {
+    margin-top: 40px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.pillar-lower-content {
+   text-align: left;
+   line-height: 28px;
+}
+
+.pillar-cont-title {
+    font-size: 25px;
+    margin-top: 60px;
+    padding-bottom: 25px;
+}
+
+.first .pillar-content {
+    width: 65%;
+    text-align: left;
+}
+
 
 .logo-list li {
     display: inline-block;
@@ -450,12 +446,13 @@ header {
 }
 
 .white-numbers.two {
+    text-align: left;
     color:  #33475B;
 }
 
 .pillar-text {
-    margin-top: 10px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .woman-pic {
@@ -463,3 +460,4 @@ header {
     height: 380px;
     padding-top: 30px;
 }
+
