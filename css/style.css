@@ -528,7 +528,7 @@ ul .inline-list a i {
     font-size: 16px;
 } 
 
-.languages-content .inline-list {
+ul .inline-list li {
     text-align: center;
 }
 
