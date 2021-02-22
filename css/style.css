@@ -373,10 +373,9 @@ header {
 
 .clm {
     width:calc(100% / 4);
-   /* margin-top: 30px; */
     padding-top: 30px;
     padding-right: 15px; 
-    padding-bottom: 20px; 
+    padding-bottom: 30px; 
     text-align: center;
     line-height: 24px; 
     color: white;
@@ -405,4 +404,18 @@ header {
 .small-detail {
     font-size: 11px;
 }
+
+
+/* OHTER SECTION WITH 2 FLOATED COLUMNS*/
+
+.pillar-cont {
+    margin-top: 40px;
+    background-color: aqua;
+}
+
+.pillar {
+    width:calc(100% / 2 - 40px);
+    margin: 20px;
+    background-color: red;
+} 
 
