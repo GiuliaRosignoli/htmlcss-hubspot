@@ -121,17 +121,25 @@ header {
     padding: 9px;
     text-decoration: none;
     text-align: center;
-    font-size: 12px;
-    color: #FF6347;
+    
     border: 1px solid  #FF6347;
     border-radius: 5px;
     vertical-align: middle;
 }
+
+.button a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #FF6347;
+}
  
 .salmon.button {
     background-color: #FF6347;
-    color: white;
     border: 1px solid transparent;
+}
+
+.salmon.button a {
+    color: white;
 }
 
 .button:hover {
@@ -146,7 +154,7 @@ header {
 .jumbotron {
     position: relative;
     background-image: url("../img-hubspot/jumbotron.png");
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 480px;
 }
@@ -164,6 +172,7 @@ header {
 
 .jumbotron-text {
     width: 40%;
+    padding-bottom: 30px;
 }
 
 .settings-title {
@@ -172,10 +181,10 @@ header {
     font-size: 43px;
 }
 
-.special {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
+.special.salmon.button {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 18px 28px 18px 28px;
 }
 
 .contained {
@@ -204,7 +213,7 @@ header {
 }
 
 
- /* CONTAINER WITH 2 FLOATED CLASSES */
+ /* CONTAINER WITH 2 FLOATED COLUMNS (IMAGE - BUTTON AN TEXT) */
 
  .section.container {
     margin-top: 50px;
@@ -240,11 +249,16 @@ header {
     text-align: left;
 }
 
-#special-button1 {
-    margin-top: -20px; 
-    margin-left: 120px;
+.alternative.salmon.button {
+    position: relative;
+    left: 120px;
     padding: 12px; 
+}
 
+.alternative.salmon.button:hover a {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .free-hubspot-title {
@@ -315,6 +329,7 @@ header {
 .special.inline-list {
     display: block;
     margin: 10px 0;
+    padding-bottom: 40px;
     text-align: left;
 }
 
@@ -517,7 +532,7 @@ header {
     margin-top: 10px;
     padding: 15px;
     background-color: lightgray;
-    border: 1 px solid #33475B;
+    border: 1px solid #33475B;
 }
 
 .gray.button a {
@@ -569,4 +584,20 @@ ul .inline-list a:hover i {
     padding: 3px;
 }
 
+.colu {
+    width:calc(100% / 2);
+}
 
+.left-content {
+  text-align: left;   
+}
+
+.right-content {
+    text-align: right;
+    color: white;
+}
+
+.right-content span a {
+    padding: 10px;
+    color: white;
+}
