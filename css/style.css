@@ -528,11 +528,45 @@ ul .inline-list a i {
     font-size: 16px;
 } 
 
-ul .inline-list li {
-    text-align: center;
-}
+ul .inline-list a:hover i {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+     transform: scale(1.2);
+ }
+
+ .languages.container {
+     margin-bottom: 30px;
+     padding-top: 40px;
+     text-align: center;
+     border-bottom: 1px solid white;
+ }
+
+ .languages.container .languages-content .languages li {
+    padding-right: 15px;
+ }
 
 .languages.container ul li a {
     color: white;
     text-decoration: none;
 }
+
+.container .final-footer-section {
+    background-color: yellowgreen;
+}
+
+.final-footer-section .logo-footer {
+    padding-top: 10px;
+}
+
+.final-footer-text {
+    margin-top: 10px;
+    padding-bottom: 60px;
+    font-size: 13px;
+    color: white;
+}
+
+.final-footer-text div span .far {
+    padding: 3px;
+}
+
+
